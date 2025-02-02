@@ -1,0 +1,40 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    color: #333;
+    margin-top: 20px;
+}
+
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+    background-color: #ccc;
+    font-size: 2rem;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 10px;
+}
+
+td.flipped {
+    background-color: #fff;
+}
+
+td.matched {
+    background-color: #98fb98; /* Light green */
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+}
